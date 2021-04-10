@@ -193,3 +193,5 @@ p { color: rgba(255, 255, 255, 0.6); }
 .col.s12.m6.l3 img { width: 10em; cursor: pointer; }
 .col.s12.m6.l3 img:hover { transform: scale(0.9); }
 .col.s12.m6.l3 img, .col.s12.m6.l3 img:hover { transition: all 300ms ease; }
+
+.purple { background-color: "#60406A"; }
