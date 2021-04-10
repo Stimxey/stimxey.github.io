@@ -194,4 +194,8 @@ p { color: rgba(255, 255, 255, 0.6); }
 .col.s12.m6.l3 img:hover { transform: scale(0.9); }
 .col.s12.m6.l3 img, .col.s12.m6.l3 img:hover { transition: all 300ms ease; }
 
-.purple { background-color: "#60406A"; }
+.green { background-color: #4CAF50 }
+.cyan { background-color: #00bcd4 }
+.pink { background-color: #e91e63 }
+.orange { background-color: #ff9800 }
+.purple { background-color: #60406A }
