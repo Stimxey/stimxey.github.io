@@ -1,6 +1,5 @@
 /* Imports */
 @import url('twemoji.css');
-@import url('arrow.css');
 
 /* Global Definitions */
 a, html, body, h1, h2, h3, h4, h5, p {
@@ -9,7 +8,7 @@ a, html, body, h1, h2, h3, h4, h5, p {
   font-family: 'Montserrat', sans-serif;
 }
 
-body { background: #191919; }
+body { background: #212121; }
 main { display:flex; flex-direction: column; align-items: center; }
 b, a { color: white; }
 b, p, a { font-size: 1.1em; }
@@ -20,16 +19,16 @@ p { color: rgba(255, 255, 255, 0.6); }
 /* Background */
 
 .bg-img:before {
-    content: ""; /* Important */
-    z-index: -1; /* Important */
-    position: inherit;
-    left: inherit;
-    top: inherit;
-    width: inherit;
-    height: inherit;
-    background-image: inherit;
-    background-size: cover;
-    filter: blur(8px);
+  content: ""; /* Important */
+  z-index: -1; /* Important */
+  position: inherit;
+  left: inherit;
+  top: inherit;
+  width: inherit;
+  height: inherit;
+  background-image: inherit;
+  background-size: cover;
+  filter: blur(8px);
 }
 .bg-img {
   background-image: url("../images/bg.jpg");
@@ -64,17 +63,6 @@ p { color: rgba(255, 255, 255, 0.6); }
 }
 
 /* Profile and Info */
-.bg-imgawd {
-  background: url('../images/background.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  filter: blur(5px) brightness(50%);
-}
-
 .information {
   width: 95%; margin: 2rem;
 }
@@ -111,7 +99,7 @@ p { color: rgba(255, 255, 255, 0.6); }
 .item_content {
   filter: drop-shadow(6px 6px 0px rgba(0,0,0,0.4));
   padding: 10px;
-  background-color: #303030;
+  background-color: #212121;
   border-radius: 0 0 5px 5px;
 }
 .title {
@@ -189,6 +177,7 @@ p { color: rgba(255, 255, 255, 0.6); }
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
 .col.s12.m6.l3 { margin-bottom: 4em; }
 .col.s12.m6.l3 img { width: 10em; cursor: pointer; }
 .col.s12.m6.l3 img:hover { transform: scale(0.9); }
